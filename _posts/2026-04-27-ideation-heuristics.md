@@ -42,11 +42,7 @@ Large Language Models (LLMs) are rapidly changing how we think, write, and even 
 
 We formalize the cognitive heuristics underlying creative idea generation. By drawing on heuristics of human ideation, Ideation Heuristics can help LLMs explore the space of possible ideas in a more comprehensive way.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2026-04-27-ideation-heuristics/heuristics.jpg" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+{% include figure.liquid path="assets/img/2026-04-27-ideation-heuristics/heuristics.jpg" class="img-fluid" %}
 
 Inspired by McGuire<d-cite key=mcguire1997creative></d-cite>, a seminal work on human ideation heuristics, we propose 20 heuristics organized into five categories that capture the diverse ways researchers generate new ideas. Below, we show the detailed heuristics and examples of how they are used in research ideation and hypothesis generation, including human research and LLM-based ideation methods.
 
@@ -117,11 +113,7 @@ To assess the real-world usefulness of our proposed Ideation Heuristics, we surv
 
 Each participant rates the usefulness of all 20 heuristics within their discipline on a three-point scale: *very useful*, *moderately useful*, or *not useful*.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2026-04-27-ideation-heuristics/survey_results.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+{% include figure.liquid path="assets/img/2026-04-27-ideation-heuristics/survey_results.png" class="img-fluid" %}
 
 The heuristics successfully capture practical and widely recognized strategies for research ideation across disciplines. Across all responses, **55% of ratings are *very useful***, and an additional **36% are *moderately useful*.** Notably, **13 out of the 20 heuristics** are rated *very useful* by a majority of participants, and **every heuristic** is considered at least *useful* (i.e., *very* or *moderately useful*) by over 60% of respondents. 
 
@@ -137,8 +129,4 @@ To make the ideation heuristics directly actionable, we develop a Claude skill c
 
 You can use the skill by simply zipping the repository and uploading it to Claude. Once enabled, Claude automatically applies the heuristic-based framework during ideation, helping you propose research ideas and hypotheses in a more systematic way. The skill first identifies relevant heuristic categories, then selects specific heuristics by referencing their detailed descriptions, and finally applies them to guide the ideation process.
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/2026-04-27-ideation-heuristics/usage_example.png" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
+{% include figure.liquid path="assets/img/2026-04-27-ideation-heuristics/usage_example.png" class="img-fluid" %}
