@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Heuristic-Based Ideation: Guiding LLMs Toward Structured Creativity
+title: Heuristic-Based Ideation for Guiding LLMs Toward Structured Creativity
 description: Large language models hold immense promise for accelerating scientific discovery, yet most LLM-based ideation methods still rely on ad-hoc strategies rather than principled frameworks. This blog introduces Ideation Heuristics, a systematic approach that formalizes 20 cognitive heuristics that structure how researchers generate new ideas. We show that researchers across disciplines find these heuristics highly useful, and we demonstrate how they can be operationalized through Claude skills.
 date: 2026-04-27
 future: true
