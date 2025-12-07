@@ -24,7 +24,7 @@ bibliography: 2026-04-27-ideation-heuristics.bib
 #     for hyperlinks within the post to work correctly.
 #   - please use this format rather than manually creating a markdown table of contents.
 toc:
-  - name: Ideation Heuristics: A Framework for Systematic Ideation
+  - name: Ideation Heuristics for Systematic Ideation
     subsections:
       - name: Observation-Based Heuristics
       - name: Reinterpreting Past Research
@@ -38,7 +38,7 @@ toc:
 
 Large Language Models (LLMs) are rapidly changing how we think, write, and even discover. In science, their potential to accelerate research ideation and hypothesis generation is very exciting<d-cite key=zheng-etal-2025-automation,gridachagentic></d-cite>. Yet, current approaches often rely on ad-hoc strategies (e.g., combining insights from two papers<d-cite key=radensky2024scideator,shen2025understanding></d-cite>), lacking a systematic framework to guide this creative process. In this blog, we introduce Ideation Heuristics, a framework towards structured creativity.
 
-## Ideation Heuristics: A Framework for Systematic Ideation
+## Ideation Heuristics for Systematic Ideation
 
 We formalize the cognitive heuristics underlying creative idea generation. By drawing on heuristics of human ideation, Ideation Heuristics can help LLMs explore the space of possible ideas in a more comprehensive way.
 
