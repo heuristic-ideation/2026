@@ -36,7 +36,7 @@ toc:
 
 ---
 
-Large Language Models (LLMs) are rapidly changing how we think, write, and even discover. In science, their potential to accelerate research ideation and hypothesis generation is very exciting <d-cite key=zheng-etal-2025-automation></d-cite>,<d-cite key=gridachagentic></d-cite>. Yet, current approaches often rely on ad-hoc strategies (e.g., combining insights from two papers <d-cite key=radensky2024scideator></d-cite>,<d-cite key=shen2025understanding></d-cite>), lacking a systematic framework to guide this creative process. In this blog, we introduce Ideation Heuristics, a framework towards structured creativity.
+Large Language Models (LLMs) are rapidly changing how we think, write, and even discover. In science, their potential to accelerate research ideation and hypothesis generation is very exciting <d-cite key=zheng2025automation></d-cite>,<d-cite key=gridachagentic></d-cite>. Yet, current approaches often rely on ad-hoc strategies (e.g., combining insights from two papers <d-cite key=radensky2024scideator></d-cite>,<d-cite key=shen2025understanding></d-cite>), lacking a systematic framework to guide this creative process. In this blog, we introduce Ideation Heuristics, a framework towards structured creativity.
 
 ## Ideation Heuristics for Systematic Ideation
 
