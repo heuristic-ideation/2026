@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Heuristic-Based Ideation for Guiding LLMs Toward Structured Creativity
-description: Large language models hold immense promise for accelerating scientific discovery, yet most LLM-based ideation methods still rely on ad-hoc strategies rather than principled frameworks. This blog introduces Ideation Heuristics, a systematic approach that formalizes 20 cognitive heuristics that structure how researchers generate new ideas. We show that researchers across disciplines find these heuristics highly useful, and we demonstrate how they can be operationalized through Claude skills.
+description: Large Language Models (LLMs) hold immense promise for accelerating scientific discovery, yet current LLM-based ideation methods often rely on ad-hoc strategies rather than systematic frameworks. This blog introduces Ideation Heuristics, a systematic approach that formalizes 20 cognitive heuristics that structure how researchers generate new ideas. We show that researchers across disciplines find these heuristics highly useful, and we demonstrate how they can be operationalized through Claude skills.
 date: 2026-04-27
 future: true
 htmlwidgets: true
@@ -33,14 +33,15 @@ toc:
       - name: Structured Analytical Approaches
   - name: Researchers Find the Heuristics Useful
   - name: How to Use the Heuristics
+  - name: Future Directions
 
 ---
 
-Large Language Models (LLMs) are rapidly changing how we think, write, and even discover. In science, their potential to accelerate research ideation and hypothesis generation is very exciting <d-cite key=zheng2025automation></d-cite>,<d-cite key=gridachagentic></d-cite>. Yet, current approaches often rely on ad-hoc strategies (e.g., combining insights from two papers <d-cite key=radensky2024scideator></d-cite>,<d-cite key=shen2025understanding></d-cite>), lacking a systematic framework to guide this creative process. In this blog, we introduce Ideation Heuristics, a framework towards structured creativity.
+Large Language Models (LLMs) are rapidly changing how we think, write, and even discover. In science, their potential to accelerate research ideation and hypothesis generation is very exciting <d-cite key=zheng2025automation></d-cite>,<d-cite key=gridachagentic></d-cite>. Yet, current ideation approaches often rely on ad-hoc strategies (e.g., combining insights from two papers <d-cite key=radensky2024scideator></d-cite>,<d-cite key=shen2025understanding></d-cite>), lacking a systematic framework to guide this creative process. In this blog, we introduce Ideation Heuristics, a framework towards structured creativity.
 
 ## Ideation Heuristics for Systematic Ideation
 
-We formalize the cognitive heuristics underlying creative idea generation. By drawing on heuristics of human ideation, Ideation Heuristics can help LLMs explore the space of possible ideas in a more comprehensive way.
+We formalize the cognitive strategies that support creative idea generation into **Ideation Heuristics**. By drawing on heuristics of human ideation, Ideation Heuristics can help LLMs explore the space of possible ideas in a more comprehensive way.
 
 {% include figure.liquid path="assets/img/2026-04-27-ideation-heuristics/heuristics.jpg" class="img-fluid" %}
 
@@ -120,3 +121,9 @@ To make the ideation heuristics directly actionable, we develop a Claude skill c
 You can use the skill by simply zipping the repository and uploading it to Claude. Once enabled, Claude automatically applies the heuristic-based framework during ideation, helping you propose research ideas and hypotheses in a more systematic way. The skill first identifies relevant heuristic categories, then selects specific heuristics by referencing their detailed descriptions, and finally applies them to guide the ideation process.
 
 {% include figure.liquid path="assets/img/2026-04-27-ideation-heuristics/usage_example.png" class="img-fluid" %}
+
+## Future Directions
+Looking ahead, the Ideation Heuristics framework opens up several promising directions for ideation research.
+One direction is to design new ideation methods that explicitly operationalize these heuristics, moving beyond simple prompting toward tool-augmented agentic frameworks.
+Another opportunity lies in exploring how LLMs can internalize and apply the heuristics more intelligently. LLMs can learn not only *how* to use each heuristic, but also *when* to use which heuristic, depending on the problem context, stage of inquiry, and available information. This includes developing meta-reasoning capabilities that allow models to dynamically select, sequence, or combine heuristics, as well as mechanisms for models to reflect on and justify their heuristic choices. 
+Ultimately, a deeper understanding of how to integrate human-inspired heuristics into LLM reasoning may yield more systematic, reliable, and creative LLMs for scientific discovery.
