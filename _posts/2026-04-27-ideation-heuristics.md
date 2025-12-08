@@ -124,6 +124,9 @@ You can use the skill by simply zipping the repository and uploading it to Claud
 
 ## Future Directions
 Looking ahead, the Ideation Heuristics framework opens up several promising directions for ideation research.
-One direction is to design new ideation methods that explicitly operationalize these heuristics, moving beyond simple prompting toward tool-augmented agentic frameworks.
-Another opportunity lies in exploring how LLMs can internalize and apply the heuristics more intelligently. LLMs can learn not only *how* to use each heuristic, but also *when* to use which heuristic, depending on the problem context, stage of inquiry, and available information. This includes developing meta-reasoning capabilities that allow models to dynamically select, sequence, or combine heuristics, as well as mechanisms for models to reflect on and justify their heuristic choices. 
+
+- One direction is to design new ideation methods that explicitly operationalize these heuristics, moving beyond simple prompting toward tool-augmented agentic frameworks.
+
+- Another opportunity lies in exploring how LLMs can internalize and apply the heuristics more intelligently. LLMs can learn not only *how* to use each heuristic, but also *when* to use which heuristic, depending on the problem context, stage of inquiry, and available information. This includes developing meta-reasoning capabilities that allow models to dynamically select, sequence, or combine heuristics, as well as mechanisms for models to reflect on and justify their heuristic choices. 
+
 Ultimately, a deeper understanding of how to integrate human-inspired heuristics into LLM reasoning may yield more systematic, reliable, and creative LLMs for scientific discovery.
