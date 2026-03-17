@@ -1,7 +1,7 @@
 ---
 layout: distill
 title: Heuristic-Based Ideation for Guiding LLMs Toward Structured Creativity
-description: Large Language Models (LLMs) hold immense promise for accelerating scientific discovery, yet current LLM-based ideation methods often rely on ad-hoc strategies rather than systematic frameworks. This blog introduces Ideation Heuristics, a systematic approach that formalizes 20 cognitive heuristics that structure how researchers generate new ideas. We show that researchers across disciplines find these heuristics highly useful, and we demonstrate how they can be operationalized through Claude skills.
+description: Large Language Models (LLMs) hold immense promise for accelerating scientific discovery, yet current LLM-based ideation methods often rely on ad-hoc strategies rather than systematic frameworks. This blog introduces Ideation Heuristics, a systematic approach that formalizes 20 heuristics that structure how researchers generate new ideas. We show that researchers across disciplines find these heuristics highly useful, and we demonstrate how they can be operationalized through skills.
 date: 2026-04-27
 future: true
 htmlwidgets: true
@@ -14,7 +14,18 @@ mermaid:
 
 # Anonymize when submitting
 authors:
-  - name: Anonymous
+  - name: Xiao Liu*
+    url: "https://xxxiaol.github.io/"
+    affiliations:
+      name: University of Chicago
+  - name: Haokun Liu*
+    url: "https://haokunliu.com/"
+    affiliations:
+      name: University of Chicago
+  - name: Chenhao Tan
+    url: "https://chenhaot.com/"
+    affiliations:
+      name: University of Chicago
 
 # must be the exact same name as your blogpost
 bibliography: 2026-04-27-ideation-heuristics.bib
@@ -24,7 +35,7 @@ bibliography: 2026-04-27-ideation-heuristics.bib
 #     for hyperlinks within the post to work correctly.
 #   - please use this format rather than manually creating a markdown table of contents.
 toc:
-  - name: Ideation Heuristics for Systematic Ideation
+  - name: Heuristics for Systematic Ideation
     subsections:
       - name: Observation-Based Heuristics
       - name: Reinterpreting Past Research
@@ -116,9 +127,9 @@ While a broad consensus emerges, we also observe meaningful disciplinary differe
 - **Social Scientists** prioritize heuristics tied to critical theory and qualitative reasoning, strongly favoring `open-ended qualitative exploration (H8)` and `challenge core assumptions (H13)`.
 
 ## How to Use the Heuristics
-To make the ideation heuristics directly actionable, we develop a Claude skill called **`heuristic-ideation`**, inspired by the Claude Scientific Skills project <d-cite key=claude_scientific_skills_2025></d-cite>. The skill is available at <https://github.com/heuristic-ideation/heuristic-ideation-skill>.
+To make the ideation heuristics directly actionable, we develop a skill called **`heuristic-ideation`**, inspired by the Claude Scientific Skills project <d-cite key=claude_scientific_skills_2025></d-cite>. The skill is available at <https://github.com/heuristic-ideation/heuristic-ideation-skill>.
 
-You can use the skill by simply zipping the repository and uploading it to Claude. Once enabled, Claude automatically applies the heuristic-based framework during ideation, helping you propose research ideas and hypotheses in a more systematic way. The skill first identifies relevant heuristic categories, then selects specific heuristics by referencing their detailed descriptions, and finally applies them to guide the ideation process.
+You can use the skill by simply zipping the repository and uploading it to LLMs like Claude and ChatGPT. Once enabled, the LLM automatically applies the heuristic-based framework during ideation, helping you propose research ideas and hypotheses in a more systematic way. The skill first identifies relevant heuristic categories, then selects specific heuristics by referencing their detailed descriptions, and finally applies them to guide the ideation process.
 
 {% include figure.liquid path="assets/img/2026-04-27-ideation-heuristics/usage_example.png" class="img-fluid" %}
 
